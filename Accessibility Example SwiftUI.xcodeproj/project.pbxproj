@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30A89631273157590021649F /* SecondScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A89630273157590021649F /* SecondScene.swift */; };
+		30A89633273159490021649F /* ThirdScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A89632273159490021649F /* ThirdScene.swift */; };
 		30E590A5272FCABC0014C1CA /* Accessibility_Example_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E590A4272FCABC0014C1CA /* Accessibility_Example_SwiftUIApp.swift */; };
 		30E590A7272FCABC0014C1CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E590A6272FCABC0014C1CA /* ContentView.swift */; };
 		30E590A9272FCABC0014C1CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E590A8272FCABC0014C1CA /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30A89630273157590021649F /* SecondScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScene.swift; sourceTree = "<group>"; };
+		30A89632273159490021649F /* ThirdScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScene.swift; sourceTree = "<group>"; };
 		30E590A1272FCABC0014C1CA /* Accessibility Example SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility Example SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E590A4272FCABC0014C1CA /* Accessibility_Example_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility_Example_SwiftUIApp.swift; sourceTree = "<group>"; };
 		30E590A6272FCABC0014C1CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,9 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				30E590A4272FCABC0014C1CA /* Accessibility_Example_SwiftUIApp.swift */,
+				30A89630273157590021649F /* SecondScene.swift */,
 				30E590A6272FCABC0014C1CA /* ContentView.swift */,
 				30E590A8272FCABC0014C1CA /* Assets.xcassets */,
 				30E590AA272FCABC0014C1CA /* Preview Content */,
+				30A89632273159490021649F /* ThirdScene.swift */,
 			);
 			path = "Accessibility Example SwiftUI";
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A89633273159490021649F /* ThirdScene.swift in Sources */,
+				30A89631273157590021649F /* SecondScene.swift in Sources */,
 				30E590A7272FCABC0014C1CA /* ContentView.swift in Sources */,
 				30E590A5272FCABC0014C1CA /* Accessibility_Example_SwiftUIApp.swift in Sources */,
 			);
